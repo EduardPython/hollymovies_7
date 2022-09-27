@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <form action="{% url 'update_director' object.id %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}<br>
+        <input type="submit" value="Update director">
+    </form>
+    <br><br>
+    <a href="{% url 'delete_director' object.id %}">Delete</a>
+{% endblock body %}

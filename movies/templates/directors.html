@@ -1,0 +1,7 @@
+{% include 'base.html' %}
+
+{% block body %}
+  {% for director in object_list %}
+    <p>{{ director.name }} age: {{ director.age }} - <a href="{% url 'director_detail' director.id %}">detail</a> - <a href="{% url 'update_director' director.id %}">update</a></p>
+  {% endfor %}
+{% endblock body %}

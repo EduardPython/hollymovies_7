@@ -1,0 +1,25 @@
+{% include 'base.html' %}
+
+{% block body %}
+  Name: {{ object.name }}<br><br>
+  Description: {{ object.description }}<br><br>
+  Rating: {{ object.rating }}<br>
+  Language: {{ object.get_language_display }}<br>
+  Released: {{ object.released|date:'d.m Y'}}<br>
+  Likes: {{ object.likes }}<br><br>
+  Actors:<br><br>
+    {% for actor in object.actors.all %}
+      {{ actor.name }}<br>
+    {% endfor %}<br>
+  Directors:<br>
+    {% for director in object.directors.all %}
+      {{ director.name }}<br>
+    {% endfor %}
+
+  <br><br>
+  <form action="{% url 'movie_detail' object.id %}" method="post">
+    {% csrf_token %}
+    <input type="submit" value="Like">
+  </form>
+
+{% endblock body %}

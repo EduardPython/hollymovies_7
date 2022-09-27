@@ -1,0 +1,13 @@
+{% include 'base.html' %}
+
+
+{% block body %}
+  Name: {{ object.name }}<br>
+  Age: {{ object.age }}<br>
+  Gender: {{ object.get_gender_display }}<br>
+  Born at : {{ object.born_at|date:'d.m Y' }}<br><br>
+  Movies:<br><br>
+  {% for movie in object.movies.all %}
+    {{ movie.name }}<br>
+  {% endfor %}
+{% endblock body %}

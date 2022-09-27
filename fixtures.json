@@ -1,0 +1,1341 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-04-17T21:26:15.986Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Movie object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Language\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-04-17T21:31:35.581Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Movie object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Rating\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-04-17T21:33:25.147Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Movie object (1)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-04-17T21:35:58.326Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Movie object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-04-17T21:37:45.214Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Movie object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Rating\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-04-17T21:39:08.604Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Movie object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-04-17T21:41:45.105Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Movie object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-04-17T21:42:57.353Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Movie object (5)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-04-17T21:44:09.920Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Movie object (6)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-04-17T21:47:24.966Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Movie object (6)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Rating\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-04-17T21:47:45.137Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Movie object (2)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Rating\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-04-17T21:47:59.303Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Movie object (3)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Rating\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-04-17T21:48:20.001Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Movie object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Rating\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-04-21T14:33:21.337Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "TestMovie : 7",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-04-21T20:34:55.162Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "TestMovie : 7",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Released\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-04-21T20:35:23.150Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Kameòák : 6",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Released\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-04-21T20:35:44.038Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Jak ukrást Dagmaru : 5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Released\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-04-21T20:35:56.048Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Titanic : 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Released\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-04-21T20:36:21.539Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Terminátor : 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Released\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-04-21T20:36:45.508Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Forrest Gump : 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Released\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-04-21T20:37:09.687Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Pulp Fiction : 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Released\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-04-23T18:47:48.617Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Actor object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-04-29T15:18:32.174Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Actor object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-04-29T15:19:44.370Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Actor object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-04-29T15:20:53.635Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Actor object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-04-29T15:28:32.633Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "TestMovie : 7",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-04-29T15:29:12.466Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Jak ukrást Dagmaru : 5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-04-29T15:29:26.575Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Jak ukrást Dagmaru : 5",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-04-29T15:29:50.697Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Pulp Fiction : 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2022-04-29T15:30:16.912Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Forrest Gump : 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2022-04-29T15:30:34.943Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Terminátor : 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2022-04-29T15:30:54.037Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Titanic : 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2022-04-29T15:31:12.671Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Kameòák : 6",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2022-04-29T21:13:16.611Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Will Smith",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2022-05-02T11:23:47.135Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Will Smith",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2022-05-02T12:59:06.663Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "jan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2022-05-02T12:59:24.796Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "jan",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2022-05-04T22:09:29.868Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Quentin Tarantino",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2022-05-04T22:20:31.172Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Pulp Fiction : 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Director\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2022-05-04T22:35:18.937Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Zdenìk Troška",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2022-05-04T22:54:39.325Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Kameòák : 6",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Director\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2022-05-04T22:55:05.653Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Jak ukrást Dagmaru : 5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Director\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2022-05-05T13:42:24.067Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "James Cameron",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2022-05-05T13:44:31.224Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Quentin Tarantino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Age\", \"Born at\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2022-05-05T13:45:56.311Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Robert Zemeckis",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2022-05-05T13:47:12.621Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Forrest Gump : 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Director\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2022-05-05T13:48:01.077Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Terminátor : 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Director\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2022-05-05T13:48:31.085Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Titanic : 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Director\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2022-05-05T19:50:52.884Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Leonardo DiCaprio",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2022-05-05T19:51:27.661Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Titanic : 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2022-05-05T19:52:36.466Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Titanic : 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2022-05-05T19:52:53.950Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Titanic : 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Actors\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2022-05-06T15:53:47.230Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Titanic : 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Likes\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add movie",
+      "content_type": 7,
+      "codename": "add_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change movie",
+      "content_type": 7,
+      "codename": "change_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete movie",
+      "content_type": 7,
+      "codename": "delete_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view movie",
+      "content_type": 7,
+      "codename": "view_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add actor",
+      "content_type": 8,
+      "codename": "add_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change actor",
+      "content_type": 8,
+      "codename": "change_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete actor",
+      "content_type": 8,
+      "codename": "delete_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view actor",
+      "content_type": 8,
+      "codename": "view_actor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add director",
+      "content_type": 9,
+      "codename": "add_director"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change director",
+      "content_type": 9,
+      "codename": "change_director"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete director",
+      "content_type": 9,
+      "codename": "delete_director"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view director",
+      "content_type": 9,
+      "codename": "view_director"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$a67qeuSaCfWfZkXjqtD8WV$wfk1Y5SMfS2nutMcCJdupm1ovlJs5QLEnUMzUi8sldQ=",
+      "last_login": "2022-05-21T17:30:54.422Z",
+      "is_superuser": true,
+      "username": "admin1",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin1@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-04-17T19:48:15.979Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "movies",
+      "model": "movie"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "movies",
+      "model": "actor"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "movies",
+      "model": "director"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "4iizzgzshbhkl1igr4df0s0b6jxi4kcn",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSEDNp-U6X0GxO5CcBJhydhVlLsHJBdJM9K8eZo38-HYsz9q3PxC7MoEu_wyCPiMpQ_0COW-clzLvi3Au8LPtfJ5pfi6ne7fQQ4191sdRqUEoWkxKi2MTFNraAaUkw2aFEhyIJNsOEUnBmsQrQO0YFGxzxfTUTgB:1nsSwI:hFj7kNJygl7DDmQ6u63Zho1EQudyxxbsE9m2bb7iO5Q",
+      "expire_date": "2022-06-04T17:30:54.429Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jzpmqhgsecqiryh2rklc9gmmadlktglu",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSEDNp-U6X0GxO5CcBJhydhVlLsHJBdJM9K8eZo38-HYsz9q3PxC7MoEu_wyCPiMpQ_0COW-clzLvi3Au8LPtfJ5pfi6ne7fQQ4191sdRqUEoWkxKi2MTFNraAaUkw2aFEhyIJNsOEUnBmsQrQO0YFGxzxfTUTgB:1nkSMi:ut-S6Uyd7ZUzOZd7Nb-VkKYPiFamAf0ViRvQ2OwXu9A",
+      "expire_date": "2022-05-13T15:17:04.091Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "m0ef3jpoldikhj4zu2aec4ffvwxsf7af",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSEDNp-U6X0GxO5CcBJhydhVlLsHJBdJM9K8eZo38-HYsz9q3PxC7MoEu_wyCPiMpQ_0COW-clzLvi3Au8LPtfJ5pfi6ne7fQQ4191sdRqUEoWkxKi2MTFNraAaUkw2aFEhyIJNsOEUnBmsQrQO0YFGxzxfTUTgB:1ngB1i:ezTCNjAUE4NshItl2_j79LM0G52qxXCyx8-6OsDNqyo",
+      "expire_date": "2022-05-01T19:57:42.504Z"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 1,
+    "fields": {
+      "name": "Johny Depp",
+      "age": 55,
+      "gender": "male",
+      "born_at": "1967-03-17"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 2,
+    "fields": {
+      "name": "Orlando Bloom",
+      "age": 33,
+      "gender": "male",
+      "born_at": "1992-04-29"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 3,
+    "fields": {
+      "name": "Ida Nováková",
+      "age": 29,
+      "gender": "female",
+      "born_at": "2001-04-20"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 4,
+    "fields": {
+      "name": "Will Smith",
+      "age": 39,
+      "gender": "male",
+      "born_at": "1993-04-03"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 6,
+    "fields": {
+      "name": "Leonardo DiCaprio",
+      "age": 47,
+      "gender": "male",
+      "born_at": "1974-11-11"
+    }
+  },
+  {
+    "model": "movies.director",
+    "pk": 1,
+    "fields": {
+      "name": "Quentin Tarantino",
+      "age": 59,
+      "gender": "male",
+      "born_at": "1963-03-27"
+    }
+  },
+  {
+    "model": "movies.director",
+    "pk": 2,
+    "fields": {
+      "name": "Zdenìk Troška",
+      "age": 69,
+      "gender": "male",
+      "born_at": "1953-05-18"
+    }
+  },
+  {
+    "model": "movies.director",
+    "pk": 3,
+    "fields": {
+      "name": "James Cameron",
+      "age": 67,
+      "gender": "male",
+      "born_at": "1954-08-16"
+    }
+  },
+  {
+    "model": "movies.director",
+    "pk": 4,
+    "fields": {
+      "name": "Robert Zemeckis",
+      "age": 70,
+      "gender": "male",
+      "born_at": "1951-05-14"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "name": "Pulp Fiction",
+      "description": "Pohled do losangeleského podsvìtí zamoøeného drogovými dealery spletený do nìkolika historek. Barevné, až nadsmyslné scény z tajemných barù, obrázky \"bìžného\" života gangsterù, kteøí musí èistit vyhrazené území pro svého šéfa, to vše je strhujícím opusem, jehož stvoøitelem nemùže být nikdo jiný než hollywoodský scénárista a režisér Quentin Tarantino. (H.C.E.)",
+      "rating": 95,
+      "language": "eng",
+      "released": "2015-10-24",
+      "director": 1,
+      "likes": 6,
+      "actors": [
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "name": "Forrest Gump",
+      "description": "“Pro hlupáka každý hloupý,\" øíká Forrest Gump (Tom Hanks), zatímco bìhem èekání na autobus debatuje s cizím èlovìkem o relativní úrovni své inteligence. Navzdory podprùmìrnému IQ vede Gump vskutku okouzlující život, v nìmž sleduje ty nejpamátnìjší události druhé poloviny 20. století doslova z první øady. Aniž by o to zámìrnì usiloval, nauèí Forrest Elvise Presleyho tanèit, stane se fotbalovou hvìzdou, setkává se s Johnem F. Kennedym, slouží se ctí ve Vietnamu, setkává se s Lyndonem Johnsonem, promlouvá na protiváleèném shromáždìní pøed Washingtonovým památníkem, porazí èínský národní tým ve stolním tenisu, setkává se s Richardem Nixonem, odhalí vloupání do budovy Watergate, rozjede úspìšné podnikání s krevetami, stane se prvním opravdovým investorem ve spoleènosti Apple Computers a nìkolik let bìhá tam a zpátky po celé zemi. Zatímco se odvíjí pozoruhodný pøíbìh jeho života, Forrest nikdy nezapomene na Jenny (Robin Wright Pennová), kterou jako kluk miloval, a jejíž vlastní cesta napøíè bouølivými 60. a 70. lety minulého století je mnohem strastiplnìjší než ta Forrestova. (Cinemax)",
+      "rating": 99,
+      "language": "eng",
+      "released": "2018-01-17",
+      "director": 4,
+      "likes": 18,
+      "actors": [
+        1,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "name": "Terminátor",
+      "description": "Terminátor je dnes již považován za naprostou legendu sci-fi žánru. Vypráví pøíbìh o zabijáckém stroji podobném èlovìku, který je vyslán z roku 2029 do Los Angeles roku 1984. Jeho úkolem je zabít Sarah Connorovou døív, než pøivede na svìt syna, který se má pozdìji stát vùdcem lidí ve válce proti strojùm. Avšak lidé žijící v budoucnosti do souèasnosti také vyslali svého muže, který se bude snažit Sarah zachránit. (Pannonia Ent.)",
+      "rating": 78,
+      "language": "cz",
+      "released": "2019-05-07",
+      "director": 3,
+      "likes": 10,
+      "actors": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "name": "Titanic",
+      "description": "Byl obrovský a luxusní. Lidé o nìm ve své pýše øíkali, že je nepotopitelný. Když vyplouval Titanic na svou první plavbu, byli na jeho palubì také chudý Jack a bohatá Rose. On vyhrál lístek v pokeru, ona mìla pronajato jedno z nejluxusnìjších apartmá. Prožili spolu nejkrásnìjší chvíle života a slíbili si, že už se nikdy nerozejdou - až do oné osudné noci, kdy pýcha lidstva narazila v Severním moøi do ledovce, který Titanic neúprosnì poslal ke dnu. Krásná romance se zmìnila ve zbìsilý a tragický boj o záchranu. Kolik jim zbývá? Hodina, možná dvì... (Bontonfilm)",
+      "rating": 85,
+      "language": "cz",
+      "released": "2021-09-23",
+      "director": 3,
+      "likes": 45,
+      "actors": [
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "name": "Jak ukrást Dagmaru",
+      "description": "Bláznivá komedie o èeském super-agentovi 007 naruby. Muž pro zvláštní operace je totální nemotora a je nasazován vládou tam, kde jde o nìco naléhavého a mimoøádného. Superagent Vašek Hruška se svìøených úkolù neohroženì ujímá a k jejich øešení pøistupuje zcela netradiènì. Jeho akce jsou však pøekvapivì úspìšné... (oficiální text distributora)",
+      "rating": 10,
+      "language": "cz",
+      "released": "2020-05-04",
+      "director": 2,
+      "likes": 2,
+      "actors": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "name": "Kameòák",
+      "description": "V jihoèeském Kameòákovì žije pestrá smìsice lidí všech možných povah a profesí. Žijí tady Novákovi. Otec Pepa je náèelníkem mìstské policie, jeho žena Vilma je uèitelkou, dcera Julie studuje zdravotní školu a devítiletý Pepíèek komentuje všechno, co se jen v okolí šustne. Z Anglie do Kameòákova pøijíždí šlechtický pár, kterému byl v rámci restituce navrácen zdejší zámek. Na malém mìstì se ale nic neutají, a tak záhy všichni ví, že lord sem pøijel hledat poklad po svém otci, na který má zálusk i jeho zrádný komorník. Zpráva o pokladu nedá spát továrníku Kohnovi, chtìl by ho i playboyský primáø, ale také matka pøedstavená zdejšího kláštera, v nìmž se místo jeptišek ukrývají prostitutky a zlodìji na útìku... (TV Nova)",
+      "rating": 33,
+      "language": "cz",
+      "released": "2007-06-21",
+      "director": 2,
+      "likes": 5,
+      "actors": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "name": "TestMovie",
+      "description": "Good movie",
+      "rating": 5,
+      "language": "cz",
+      "released": "2022-04-05",
+      "director": null,
+      "likes": 0,
+      "actors": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+  <a href="{% url 'homepage' %}">Homepage</a><br><br>
+  <a href="https://www.google.com">Google</a><br>
+{% endblock navbar %}
+
+{% block body %}
+  {{ testing_list.0 }} : {{ testing_list.1 }} : {{ testing_list.2 }}
+  <br>
+  {{ testing_dict.key_1 }}
+  <br>
+  {{ testing_queruset.2 }}
+{% endblock body %}

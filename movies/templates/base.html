@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body style="background: #e8ceb7">
+<h1>Vítám Vás v aplikaci Hollymovies - {{ page_name }}</h1><br>
+
+{% block navbar %}
+  <a href="{% url 'homepage' %}">Homepage</a><br><br>
+  <a href="{% url 'actors' %}">Actors</a><br>
+  <a href="{% url 'movies' %}">Movies</a><br>
+  <a href="{% url 'directors' %}">Directors</a><br><br>
+  <a href="{% url 'create_movie' %}">Create Movie</a><br>
+  <a href="{% url 'create_actor' %}">Create Actor</a><br>
+  <a href="{% url 'create_director' %}">Create Director</a><br><br>
+  <a href="{% url 'jinja2_testing_view' %}">Template cheatsheet</a><br>
+  <a href="{% url 'contact_view' %}">Contact</a><br><br>
+{% endblock navbar %}
+
+{% block body %}
+{% endblock body %}
+
+</body>
+</html>
